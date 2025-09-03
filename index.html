@@ -21,6 +21,19 @@
             padding: 2rem;
             text-align: center;
         }
+        .custom-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .custom-button:hover {
+            background-color: #0056b3;
+        }
         footer {
             background-color: #333;
             color: white;
@@ -40,6 +53,9 @@
 
     <main>
         <p>This is a simple index page template. You can start building your content here.</p>
+        
+        <!-- 👇 New Button Added -->
+        <button class="custom-button" onclick="alert('You clicked the button!')">Click Me</button>
     </main>
 
     <footer>
